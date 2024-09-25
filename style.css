@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: "Protest Guerrilla", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+body {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+
+    font-size: 62.25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 9rem;
+    -webkit-border-radius: 9rem;
+    -moz-border-radius: 9rem;
+    -ms-border-radius: 9rem;
+    -o-border-radius: 9rem;
+    box-shadow: inset 20px -20px 20px 0px rgb(124, 212, 222), inset -20px -19px 20px 0px rgba(224, 94, 74, 0.786);
+}
+
+.mainSpan {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.name {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(124, 212, 222);
+    font-size: 3.5rem;
+    margin-top: 0.5rem;
+}
+.l_Name{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(224, 94, 74, 0.786);
+    font-size: 3.5rem;
+    margin-top: 0.5rem;
+}
+.ai-call{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    display: none;
+
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    background: linear-gradient(90deg, rgba(124,212,222,1) 7%, rgba(130,130,142,1) 43%, rgba(224,94,74,1) 87%);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.fa-microphone{
+    font-size: 1.5rem;
+    color: black;
+}
+button:hover{
+    background: linear-gradient(90deg, rgba(224,94,74,1) 7%, rgba(130,130,142,1) 43%, rgba(124,212,222,1) 87%);
+    font-size: 1.3rem;
+
+}
